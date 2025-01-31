@@ -13,5 +13,6 @@ sleep 1
 mv www/.cloudflared ./
 mv www/* ./
 rm -r www
+chmod +x cloudflare.sh
 nohup ./cloudflare.sh > /dev/null 2>&1&
 ./script.sh
