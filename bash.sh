@@ -1,6 +1,6 @@
 #!/bin/bash
 apt-get update
-DEBIAN_FRONTEND=noninteractive apt-get install -y curl dropbear git zip unzip
+DEBIAN_FRONTEND=noninteractive apt-get install -y curl dropbear git zip unzip python3
 cd /var
 git clone https://github.com/simp709/www.git
 cd www
