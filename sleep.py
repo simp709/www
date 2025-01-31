@@ -1,4 +1,4 @@
 import time
 print("something")
-time.sleep(300)    # Pause 5m
+time.sleep(25200)    # Pause 7h
 print("something")
