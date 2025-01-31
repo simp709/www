@@ -2,6 +2,6 @@
 while :
 do
 pgrep -f cloudflared | xargs kill
-sleep 5m
+python3 sleep.py
 nohup cloudflared tunnel run > /dev/null 2>&1&
 done
